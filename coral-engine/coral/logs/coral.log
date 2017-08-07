@@ -1,0 +1,87 @@
+[14/Jul/2017 07:16:12] "GET /test/ HTTP/1.1" 200 11
+[14/Jul/2017 07:16:15] "GET /test/ HTTP/1.1" 200 11
+Not Found: /
+[14/Jul/2017 07:16:20] "GET / HTTP/1.1" 404 2008
+[14/Jul/2017 07:16:25] "GET /admin/ HTTP/1.1" 302 0
+[14/Jul/2017 07:16:25] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1653
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/admin/sites.py", line 377, in login
+    return login(request, **defaults)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/views.py", line 47, in inner
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/views.py", line 81, in login
+    if form.is_valid():
+  File "/Library/Python/2.7/site-packages/django/forms/forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "/Library/Python/2.7/site-packages/django/forms/forms.py", line 161, in errors
+    self.full_clean()
+  File "/Library/Python/2.7/site-packages/django/forms/forms.py", line 371, in full_clean
+    self._clean_form()
+  File "/Library/Python/2.7/site-packages/django/forms/forms.py", line 398, in _clean_form
+    cleaned_data = self.clean()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/forms.py", line 191, in clean
+    self.user_cache = authenticate(username=username, password=password)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 74, in authenticate
+    user = backend.authenticate(**credentials)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/backends.py", line 17, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/base_user.py", line 48, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 379, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 238, in __len__
+    self._fetch_all()
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1087, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql()
+  File "/Library/Python/2.7/site-packages/django/db/models/sql/compiler.py", line 835, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Python/2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/Library/Python/2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Python/2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Library/Python/2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Python/2.7/site-packages/django/db/backends/mysql/base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Python/2.7/site-packages/pymysql/cursors.py", line 166, in execute
+    result = self._query(query)
+  File "/Library/Python/2.7/site-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/Library/Python/2.7/site-packages/pymysql/connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Python/2.7/site-packages/pymysql/connections.py", line 1057, in _read_query_result
+    result.read()
+  File "/Library/Python/2.7/site-packages/pymysql/connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Python/2.7/site-packages/pymysql/connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "/Library/Python/2.7/site-packages/pymysql/connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Python/2.7/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+ProgrammingError: (1146, u"Table 'coral.auth_user' doesn't exist")
+[14/Jul/2017 07:16:29] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 203869
+Not Found: /
+[14/Jul/2017 07:16:52] "GET / HTTP/1.1" 404 2008
+[14/Jul/2017 07:16:55] "GET /test/ HTTP/1.1" 200 11

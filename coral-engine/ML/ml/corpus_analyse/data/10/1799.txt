@@ -1,0 +1,20 @@
+Data&#13;
+Analysis InternWork&#13;
+location: WuxiJob Purpose: Under daily direction, successful candidates for this position will be&#13;
+responsible for data cleansing and enriching efforts in the materials masters across&#13;
+multiple manufacturing locations.  Candidate will also engage in mining&#13;
+data attributes from various ERP’s  including  sourcing from design&#13;
+data drawings and engineering specs. Responsibilities:1.    &#13;
+Analyzing existing data records for quality and perform&#13;
+corrections2.    &#13;
+Correct item attributes that fall outside the acceptable values&#13;
+per the exception reports 3.    &#13;
+Populate missing attributes for the materials masters as directed4.    &#13;
+Mine critical material master data fields, including global&#13;
+material classification characteristic data, according to data standards and&#13;
+based on the review of engineering and purchasing specifications and drawingsRequirements:1.     Bachelor degree or equivalent experience2.    &#13;
+Normal mechanical and analytical ability is a must 3.    &#13;
+Must have aptitude for understanding part specifications, data&#13;
+mining, and projecting data design implications onto varied business&#13;
+processes 4.    &#13;
+Knowledge of SAP preferred 

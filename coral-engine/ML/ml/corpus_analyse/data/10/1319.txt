@@ -1,0 +1,1 @@
+1、  计算机专业；2、  熟悉并熟练使用java，spring，springmvc，mybatis，redis等开源技术；3、  熟悉eclipse，maven，svn或git等开发工具；4、  熟悉js，jquery，angularjs，bootstrap等web开发；5、  有互联网企业实习经验优先；【时间要求】3-5天，确保每周至少3天全职时间

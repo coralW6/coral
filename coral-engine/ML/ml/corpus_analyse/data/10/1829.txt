@@ -1,0 +1,1 @@
+Software Test InternMain ResponsibilitiesUnderstand test scripts for system tests of Cluster productReview the design of the system testsRun the system testsAnalyze the results of the system testsCompile the results of the system tests

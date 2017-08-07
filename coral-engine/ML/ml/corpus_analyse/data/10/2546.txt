@@ -1,0 +1,1 @@
+接受暑期实习&amp;长期实习职位描述1、负责公司App及微信公众平台后端编码与优化、升级；2、负责设计和开发文档的编写与维护；3、对产品功能体验提出改进建议，对技术实现进行持续优化改进。任职要求：1、计算机软件及相关专业，大专及以上学历;2、熟悉Struts2、Spring、Hibernate、myBatis等开源技术框架，熟悉http等网络协议，熟悉restful接口规范，能熟练使用Eclipse、Idea等常用开发工具；3、了解html、css、javascript、ajax、jquery等web前端技术；4、熟悉使用MySQL、SQL Server等常用数据库，熟悉数据库设计；5、熟悉apache、tomcat等服务器的安装配置；

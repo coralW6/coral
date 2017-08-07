@@ -1,0 +1,1 @@
+Clients：Coca Cola可口可乐主要负责广告的排期处理和制作Requirements：a.excel要好（灵活运用vlookup等），对数据敏感b.擅长英文文字撰写

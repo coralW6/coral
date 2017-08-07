@@ -1,0 +1,3 @@
+招聘要求：1.  &#13;
+熟悉Javascript、Ajax、HTML等网页编程中的一种。2.  &#13;
+熟悉常用的J2EE开发框架（Spring、ibatis、Struts、Hibernate等）。

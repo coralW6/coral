@@ -1,0 +1,1 @@
+7.. 了解Object-C； Linux/Unix Shell编程者优先；

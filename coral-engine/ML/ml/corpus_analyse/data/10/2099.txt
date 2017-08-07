@@ -1,0 +1,2 @@
+1. 熟悉Cocos2d-x引擎，有C++，Object C基础， lua脚本编程经验者优先2.&#13;
+有Java基础或者Object C基础，

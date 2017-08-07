@@ -1,0 +1,1 @@
+ Job Requirements： 1)精通C#、Python，有扎实的软件开发功底，信息技术类相关专业优先；（nesserary） 2)对金融类系统开发感兴趣，优雅的代码习惯；（nesserary） 3)熟悉流行的源代码管理工具如Git、SVN；（nesserary） 4)有开源社区贡献，开发过金融交易类软件；（plus）

@@ -1,0 +1,1 @@
+Responsibilities:1.跟进operation层面事务2.form filling3.组织架构更新整合4.人员发展分析5.数据分析处理Requirements:

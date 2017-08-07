@@ -1,0 +1,9 @@
+Database:1
+Marketing:1
+Industry:1
+trends:1
+research2:1
+Research:1
+1:1
+Responsibilities:1
+study:1

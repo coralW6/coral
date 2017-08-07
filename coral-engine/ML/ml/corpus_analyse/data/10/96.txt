@@ -1,0 +1,1 @@
+In this position, you will work with Intel engineer to develop Android core technology on Intel platforms. The core technology include Boot, OTA updates, security. 

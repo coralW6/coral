@@ -1,0 +1,106 @@
+/Users/bjhl/personalWorkplace/coral-engine/coral_spider/coral_spider/spiders/linux_idc.py:12: ScrapyDeprecationWarning: Module `scrapy.spider` is deprecated, use `scrapy.spiders` instead
+  from scrapy.spider import Spider
+2017-07-17 09:47:59 [scrapy] INFO: Scrapy 1.1.1 started (bot: coral_spider)
+2017-07-17 09:47:59 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'coral_spider.spiders', 'SPIDER_MODULES': ['coral_spider.spiders'], 'ROBOTSTXT_OBEY': True, 'DOWNLOAD_DELAY': 3, 'BOT_NAME': 'coral_spider'}
+2017-07-17 09:47:59 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-17 09:47:59 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-17 09:47:59 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-17 09:47:59 [scrapy] INFO: Enabled item pipelines:
+['coral_spider.pipelines.LinuxIdcPipeline']
+2017-07-17 09:47:59 [scrapy] INFO: Spider opened
+2017-07-17 09:47:59 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-17 09:47:59 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-07-17 09:47:59 [root] INFO: 开始抓取文章 2017-07-17
+2017-07-17 09:47:59 [scrapy] DEBUG: Crawled (401) <GET http://www.linuxidc.com/robots.txt> (referer: http://www.linuxidc.com/MySql/)
+2017-07-17 09:48:02 [scrapy] DEBUG: Crawled (200) <GET http://www.linuxidc.com/it/> (referer: http://www.linuxidc.com/MySql/)
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145583.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145582.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145576.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145561.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145559.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145551.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145542.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145541.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145540.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145539.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145538.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145537.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145534.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145533.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145532.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145531.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145530.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145529.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145528.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145527.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145523.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145521.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145520.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145511.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145510.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145509.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145492.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145491.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145490.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145488.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145487.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145486.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145485.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145484.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145483.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145482.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145481.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145480.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145479.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145478.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145477.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145476.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145470.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145469.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145468.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145467.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145462.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145461.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145459.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: http://www.linuxidc.com/Linux/2017-07/145458.htm in redis set, continue
+2017-07-17 09:48:02 [root] INFO: 抓取完成,count=-1
+2017-07-17 09:48:03 [scrapy] INFO: Closing spider (finished)
+2017-07-17 09:48:03 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 742,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 15076,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/401': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 17, 1, 48, 3, 1946),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 59,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 7, 17, 1, 47, 59, 253073)}
+2017-07-17 09:48:03 [scrapy] INFO: Spider closed (finished)

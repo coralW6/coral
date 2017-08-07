@@ -1,0 +1,1 @@
+职责：1.负责公司相关业务的移动Web页面设计； 要求：1、了解主流Web前端技术，包括xhtml/xml/css/javascript等；2、有JS开发或UI设计经验者优先；

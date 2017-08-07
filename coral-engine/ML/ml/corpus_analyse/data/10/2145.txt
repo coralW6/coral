@@ -1,0 +1,2 @@
+(ONLY for the candidate who&#13;
+will be graduated in 2018) What you’ll be doing:Take the responsibility to test our software distributions that includes mobile/embedded OS, SDK, compilers and samples codesDo daily triage on automation test reports.Maintain automation test data and analysisWhat we need to see: Strong knowledge on  Linux Operating systemsProven ability in scripting languages.
