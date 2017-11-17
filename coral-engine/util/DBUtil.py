@@ -4,15 +4,6 @@ from collections import defaultdict
 import pymysql
 pymysql.install_as_MySQLdb()
 
-__author__ = 'Will Wang <wangweiwei@baijiahulian.com>'
-__version__ = "1.2.0"
-__date__ = "15/1/9"
-__doc__ = """
-            1.增加fetch_by_map方法
-            2.增加使用params取数据方法
-            3.增加将dict数据直接插入到mysql的方法
-            4.增加读写使用不同的数据库连接
-            """
 
 import MySQLdb
 import traceback
