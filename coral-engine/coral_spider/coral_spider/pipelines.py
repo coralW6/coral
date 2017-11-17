@@ -5,7 +5,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 home = os.getenv('HOME')
-sys.path.append(home + '/personalWorkplace/coral-engine/coral_spider/')
+sys.path.append(home + '/personalWorkplace/coral/coral-engine/coral_spider/')
 
 from util.DBFactory import factory
 

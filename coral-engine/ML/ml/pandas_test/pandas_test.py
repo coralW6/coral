@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression # 引入逻辑回归
 from sklearn.cross_validation import train_test_split
 
+#jupyter notebook
 
 df = pd.read_excel('test_data.xls')
 print type(df)

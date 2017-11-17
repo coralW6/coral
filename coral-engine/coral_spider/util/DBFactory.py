@@ -12,7 +12,7 @@ class DBFactory(object):
     def __init__(self):
         self.dbs = {}
         home = os.getenv('HOME')
-        pro = Properties(home + '/personalWorkplace/coral-engine/coral_spider/resources/db.properties')
+        pro = Properties(home + '/personalWorkplace/coral/coral-engine/coral_spider/resources/db.properties')
         self.property = pro.get_properties()
 
     def get_db(self, name):
